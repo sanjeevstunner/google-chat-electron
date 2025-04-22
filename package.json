@@ -1,11 +1,14 @@
 {
   "name": "google-chat-electron",
-  "version": "2.20.0",
+  "version": "2.21.0",
   "description": "Unofficial desktop app for Google Chat.",
   "private": true,
   "repository": "https://github.com/ankurk91/google-chat-electron",
   "homepage": "https://github.com/ankurk91/google-chat-electron",
   "author": "ankurk91",
+  "contributors": [
+    "sanjeevstunner"
+  ],
   "license": "GNU GPLv3",
   "main": "lib/main/index.js",
   "scripts": {
@@ -31,7 +34,7 @@
   "devDependencies": {
     "@types/auto-launch": "^5.0.2",
     "@types/throttle-debounce": "^5.0.0",
-    "electron": "^21.3.1",
+    "electron": "^35.2.0",
     "electron-packager": "^17.1.1",
     "rimraf": "^3.0.2",
     "typescript": "^4.9.3"
@@ -51,9 +54,7 @@
     "electron-installer-debian": "^3.1.0"
   },
   "engineStrict": true,
-  "packageManager": "pnpm@7.0.0",
   "engines": {
-    "node": ">=18.12",
-    "pnpm": "^7.0.0"
+    "node": ">=18.12"
   }
 }
